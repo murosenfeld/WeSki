@@ -84,8 +84,16 @@ export class SearchPage extends AbstractPage {
     await this.clickButtonFindYourTrip.click();
   }
 
+  //Example to exeption error
   async selectSearchingFor() {
-    await this.clickToSearch.click();
+    try {
+      await this.clickToSearch.click();
+    }
+    catch (error) {
+      console.log('error', error);
+      console.error('An unexpected error occurred:', error.message);
+      console.error('Stack trace:', error.stack);
+    }
   }
 
   async getTheResultTitle() {
