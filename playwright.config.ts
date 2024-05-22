@@ -23,11 +23,15 @@ const config: PlaywrightTestConfig = {
   projects: [
     {
       name: 'Chromium',
-      use: { browserName: 'chromium',
-      launchOptions: {
-        args: ["--start-maximized"]
-        } 
-     },   
+      use: { browserName: 'chromium' },
+    },
+    {
+      name: 'Firefox',
+      use: { browserName: 'firefox' },
+    },
+    {
+      name: 'Webkit',
+      use: { browserName: 'webkit' },
     },
   ],
 }

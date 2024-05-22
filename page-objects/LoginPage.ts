@@ -14,15 +14,11 @@ export class LoginPage extends AbstractPage {
   constructor(page: Page) {
     // this.page = page
     super(page)
-    this.emailInput = page.locator('[data-testid="input-email"]')
-    this.passwordInput = page.locator('[data-testid="input-password"]')
-    this.submitButton = page.locator('[data-testid="button-auth.signIn.buttonLabel"]')
+
   }
 
   // Define login page methods
   async login(email: string, password: string) {
-    await this.emailInput.type(email)
-    await this.passwordInput.type(password)
-    await this.submitButton.click()
+
   }
 }

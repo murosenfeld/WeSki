@@ -1,15 +1,10 @@
 {
-        "vendor": {
-            "contact": "",
-            "email": "",
-            "phone": "1234567890",
-            "validate": "true",
-            "bussines": "Auto_11_4_2024_16:16:58",
-            "wrong_email": "test"
+        "result": {
+            "trip": "Choose your trip"
         },
         
         "error": {
-            "business": "Company already exists, please choose a different name",
+            "message": "Wrong data",
             "email": "Enter a valid email address."
         }
   }
