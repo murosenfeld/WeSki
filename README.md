@@ -16,11 +16,11 @@ Run example
 
 npx playwright test
 
-npx playwright test tests/e2e/WeSki/mainPage.spec.ts --headed --project=chromium 
+ npx playwright test  --headed --project=chromium 
 
 ### Run example with debug
 
-npx playwright test tests/e2e/WeSki/mainPage.spec.ts --headed --project=chromium  --debug 
+ npx playwright test  --headed --project=chromium  --debug 
 
 ### HTML Test Reports
 
